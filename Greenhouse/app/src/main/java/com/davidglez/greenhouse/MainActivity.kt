@@ -129,20 +129,6 @@ fun Sensors() {
         ) {
             Row(Modifier.padding(16.dp)) {
                 Icon(
-                    painter = painterResource(id = R.drawable.ic_temperature),
-                    contentDescription = "temperature", Modifier.size(28.dp)
-                )
-                Spacer(modifier = Modifier.padding(2.dp))
-                Text(text = "Temperatura de mi invernadero: ")
-            }
-        }
-        Card(
-            Modifier
-                .fillMaxWidth()
-                .padding(16.dp)
-        ) {
-            Row(Modifier.padding(16.dp)) {
-                Icon(
                     painter = painterResource(id = R.drawable.ic_humidity),
                     contentDescription = "humidity", Modifier.size(28.dp)
                 )
